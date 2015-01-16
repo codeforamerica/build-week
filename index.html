@@ -38,9 +38,25 @@
 			.data(data)
 			.enter()
 			.append("li")
-			.append("a")
+				.text(function(d) { return d.team; });
+
+		csvrows.append("span")
+			.text(" : ");
+
+		csvrows.append("a")
 			.attr("href", function(d) { return d.repo_link; })
-			.text(function(d) { return d.team; });
+			.text("repo");
+
+		csvrows.each(function(d) {
+			var row = d3.select(this)
+			if (d.app_link != "") {
+				row.append("span")
+					.text(" - ");
+				row.append("a")
+					.attr("href", function(d) { return d.app_link; })
+					.text("app");
+			}
+		})
 	});
 </script>
 
