@@ -1,10 +1,10 @@
-team,repo_link
-"Albuquerque, NM",https://github.com/codeforamerica/abq-filmextras
-"Indianapolis, IN",https://github.com/codeforamerica/earlyindy
-"Miami-Dade County, FL",https://github.com/codeforamerica/mdc-dashboard
-"Pittsburgh, PA",https://github.com/codeforamerica/wexplorer
-"RVA Community Partners, Richmond, VA",https://github.com/codeforamerica/RVA-FAMIS
-"Somerville, MA",https://github.com/codeforamerica/Homeroom
-"Vallejo, CA",https://github.com/codeforamerica/vallejo_watch
-"West Sacramento, CA",https://github.com/codeforamerica/EatLocal
-Health Lab,https://github.com/codeforamerica/reassure
+team,repo_link,lat,long
+"Albuquerque, NM",https://github.com/codeforamerica/abq-filmextras,35.0824099,-106.6764794
+"Indianapolis, IN",https://github.com/codeforamerica/earlyindy,39.7797845,-86.13275
+"Miami-Dade County, FL",https://github.com/codeforamerica/mdc-dashboard,25.558427,-80.4957649
+"Pittsburgh, PA",https://github.com/codeforamerica/wexplorer,40.4313684,-79.9805005
+"RVA Community Partners, Richmond, VA",https://github.com/codeforamerica/RVA-FAMIS,37.524661,-77.4932615
+"Somerville, MA",https://github.com/codeforamerica/Homeroom,42.395542,-71.1037479
+"Vallejo, CA",https://github.com/codeforamerica/vallejo_watch,38.1169475,-122.2625902
+"West Sacramento, CA",https://github.com/codeforamerica/EatLocal,38.5532399,-121.5473254
+Health Lab,https://github.com/codeforamerica/reassure,37.775692,-122.413601
