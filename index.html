@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>build week apps</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: "MyriadPro-Regular", "Myriad Pro Regular", MyriadPro, "Myriad Pro", Helvetica, Arial, sans-serif;
+			font-size: 24px;
+		}
+
+		li {
+			list-style-type:none;
+		}
+
+		#wrapper {
+			margin: 20px 20px 150px 20px;
+			width: 100%;
+		}
+
+	</style>
+	<script type="text/javascript" src="http://mbostock.github.com/d3/d3.min.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+
+	<h2>build week app repositories</h2>
+
+<div id="csvdiv"></div>
+
+<!-- pull the spreadsheet data directly from google drive generated csv file -->
+<script type="text/javascript">
+	d3.csv("build_week_apps.csv", function(data, error) {
+		var csvdiv = d3.select("#csvdiv")
+			.append("ul");
+
+		var csvrows = csvdiv.selectAll("li")
+			.data(data)
+			.enter()
+			.append("li")
+			.append("a")
+			.attr("href", function(d) { return d.repo_link; })
+			.text(function(d) { return d.team; });
+	});
+</script>
+
+</div> <!-- /wrapper -->
+</body>
+</html>
