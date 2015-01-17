@@ -1,6 +1,6 @@
 team,repo_link,app_link,lat,long
-"Albuquerque, NM",https://github.com/codeforamerica/abq-filmextras,,35.0824099,-106.6764794
-"Indianapolis, IN",https://github.com/codeforamerica/earlyindy,,39.7797845,-86.13275
+"Albuquerque, NM",https://github.com/codeforamerica/abq-filmextras,http://codeforamerica.github.io/abq-filmextras/,35.0824099,-106.6764794
+"Indianapolis, IN",https://github.com/codeforamerica/earlyindy,http://codeforamerica.github.io/earlyindy/,39.7797845,-86.13275
 "Miami-Dade County, FL",https://github.com/codeforamerica/mdc-dashboard,http://codeforamerica.github.io/mdc-dashboard/,25.558427,-80.4957649
 "Pittsburgh, PA",https://github.com/codeforamerica/wexplorer,,40.4313684,-79.9805005
 "RVA Community Partners, Richmond, VA",https://github.com/codeforamerica/RVA-FAMIS,,37.524661,-77.4932615
