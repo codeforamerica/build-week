@@ -56,6 +56,13 @@
 					.attr("href", function(d) { return d.app_link; })
 					.text("app");
 			}
+			if (d.presentation_link != "") {
+				row.append("span")
+					.text(" - ");
+				row.append("a")
+					.attr("href", function(d) { return d.presentation_link; })
+					.text("presentation");
+			}
 		})
 	});
 </script>

@@ -1,10 +1,10 @@
-team,repo_link,app_link,lat,long
-"Albuquerque, NM",https://github.com/codeforamerica/abq-filmextras,http://codeforamerica.github.io/abq-filmextras/,35.0824099,-106.6764794
-"Indianapolis, IN",https://github.com/codeforamerica/earlyindy,http://codeforamerica.github.io/earlyindy/,39.7797845,-86.13275
-"Miami-Dade County, FL",https://github.com/codeforamerica/mdc-dashboard,http://codeforamerica.github.io/mdc-dashboard/,25.558427,-80.4957649
-"Pittsburgh, PA",https://github.com/codeforamerica/wexplorer,http://bit.ly/wexplorer,40.4313684,-79.9805005
-"RVA Community Partners, Richmond, VA",https://github.com/codeforamerica/RVA-FAMIS,http://codeforamerica.github.io/RVA-FAMIS/,37.524661,-77.4932615
-"Somerville, MA",https://github.com/codeforamerica/Homeroom,https://homeroom-somerville.herokuapp.com/,42.395542,-71.1037479
-"Vallejo, CA",https://github.com/codeforamerica/vallejo_watch,,38.1169475,-122.2625902
-"West Sacramento, CA",https://github.com/codeforamerica/EatLocal,http://codeforamerica.github.io/EatLocal/,38.5532399,-121.5473254
-Health Lab,https://github.com/codeforamerica/reassure,,37.775692,-122.413601
+team,repo_link,app_link,presentation_link,lat,long
+"Albuquerque, NM",https://github.com/codeforamerica/abq-filmextras,http://codeforamerica.github.io/abq-filmextras/,https://docs.google.com/a/codeforamerica.org/presentation/d/1sSwUBG3SN-SqMW8yYXOplmMD-kJBnvIxTe_Hdqv2f1E/edit#slide=id.p,35.0824099,-106.6764794
+"Indianapolis, IN",https://github.com/codeforamerica/earlyindy,http://codeforamerica.github.io/earlyindy/,https://docs.google.com/a/codeforamerica.org/presentation/d/1dj-aJu8CdWT2J2vWwg7kx8tP9GSqjxe4wLw1Ow8wJx0/edit#slide=id.p,39.7797845,-86.13275
+"Miami-Dade County, FL",https://github.com/codeforamerica/mdc-dashboard,http://codeforamerica.github.io/mdc-dashboard/,https://docs.google.com/a/codeforamerica.org/presentation/d/1eTxwfBpVHeYLIvL9-HZI1OYE8zaZIbxGKizKS0ep2TU/edit#slide=id.p,25.558427,-80.4957649
+"Pittsburgh, PA",https://github.com/codeforamerica/wexplorer,http://bit.ly/wexplorer,https://docs.google.com/a/codeforamerica.org/presentation/d/15hzuBwoDhPa0UWTVWa_KfqOZ4fBHmCyOtqjzFxC3xk8/edit?usp=sharing,40.4313684,-79.9805005
+"RVA Community Partners, Richmond, VA",https://github.com/codeforamerica/RVA-FAMIS,http://codeforamerica.github.io/RVA-FAMIS/,https://docs.google.com/a/codeforamerica.org/presentation/d/1vAKAS-aJbHIobC2oaAdwsM2eyqNgaqUb7kdE1zwftAk/edit?usp=sharing,37.524661,-77.4932615
+"Somerville, MA",https://github.com/codeforamerica/Homeroom,https://homeroom-somerville.herokuapp.com/,https://docs.google.com/a/codeforamerica.org/presentation/d/1pvuuPv8-QStSmjyb4qVeH1p3yur-NQxdHpEXrqUboP0/edit?usp=sharing,42.395542,-71.1037479
+"Vallejo, CA",https://github.com/codeforamerica/vallejo_watch,,,38.1169475,-122.2625902
+"West Sacramento, CA",https://github.com/codeforamerica/EatLocal,http://codeforamerica.github.io/EatLocal/,https://docs.google.com/a/codeforamerica.org/presentation/d/1G6eKJFC46PP8JlghxmPa1MUGBmr9YUf4yvaDYm1lzXo/edit?usp=sharing,38.5532399,-121.5473254
+Health Lab,https://github.com/codeforamerica/reassure,,,37.775692,-122.413601	
