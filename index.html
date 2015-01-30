@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>build week apps</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: "MyriadPro-Regular", "Myriad Pro Regular", MyriadPro, "Myriad Pro", Helvetica, Arial, sans-serif;
+			font-size: 24px;
+		}
+
+		li {
+			list-style-type:none;
+		}
+
+		#wrapper {
+			margin: 20px 20px 150px 20px;
+			width: 100%;
+		}
+
+	</style>
+	<script type="text/javascript" src="http://mbostock.github.com/d3/d3.min.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+
+	<h2>build week apps</h2>
+
+<div id="csvdiv"></div>
+
+<script type="text/javascript">
+	d3.csv("build_week_apps.csv", function(data, error) {
+		var csvdiv = d3.select("#csvdiv")
+			.append("ul");
+
+		var csvrows = csvdiv.selectAll("li")
+			.data(data)
+			.enter()
+			.append("li")
+				.text(function(d) { return d.team; });
+
+		csvrows.append("span")
+			.text(" : ");
+
+		csvrows.append("a")
+			.attr("href", function(d) { return d.repo_link; })
+			.text("repo");
+
+		csvrows.each(function(d) {
+			var row = d3.select(this)
+			if (d.app_link != "") {
+				row.append("span")
+					.text(" - ");
+				row.append("a")
+					.attr("href", function(d) { return d.app_link; })
+					.text("app");
+			}
+			if (d.presentation_link != "") {
+				row.append("span")
+					.text(" - ");
+				row.append("a")
+					.attr("href", function(d) { return d.presentation_link; })
+					.text("presentation");
+			}
+		})
+	});
+</script>
+
+</div> <!-- /wrapper -->
+</body>
+</html>
